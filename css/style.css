@@ -1,0 +1,92 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: url('../img/kisspng-martini-cocktail-margarita-wine-glass-champagne-gl-tall-transparent-glass-png-and-psd-5aaa43202d9793.6159759815211077441868.png');
+  background-size: 15%;
+  background-repeat: repeat;
+  color:rgb(55, 55, 187);
+  font-size: 2rem;
+  font-weight: 700;
+}
+button {
+  color:rgb(55, 55, 187)
+}
+img{
+  display: block;
+  margin: 0 auto;
+  height: 345px;
+  /* border: solid green 1px; */
+}
+#Ing {
+  text-align: center;
+  background: white;
+  font-size: 1rem;
+  /* border: solid yellow 1px; */
+}
+li {
+  list-style: none;
+}
+#video {
+  /* border: solid orange 1px; */
+  display: none;
+
+}
+#top {
+  /* border: solid red 1px; */
+  text-align: center;
+}
+h2 {
+  display: none
+  font-size: 3rem;
+  text-align: center;
+  background: white;
+}
+
+#nameplus {
+  padding-top: 25px;
+  height: 425px;
+  /* border: solid blue 1px; */
+  display: flex;
+
+}
+.left, .middle, .right {
+  flex: 1;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+}
+.bottom {
+  width: 50%;
+  margin: 0 auto;
+}
+h3 {
+  text-align: center;
+  background: white;
+}
+ol {
+  list-style: none;
+  padding-left: 0;
+}​
+@media all and (max-width: 700) {
+
+  .left, .middle, .right{
+    width: 100%;
+    flex-direction: column;
+  }
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
